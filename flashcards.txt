@@ -1,0 +1,152 @@
+What is the 80/20 rule mentioned in the Linux Commands Handbook?;The 80/20 rule mentioned in the Linux Commands Handbook is about learning 80% of a topic in 20% of the time.
+What is the focus of the Linux Commands Handbook?;The Linux Commands Handbook focuses on the small core commands that you will use the 80% or 90% of the time, trying to simplify the usage of the more complex ones.
+On which systems do the commands from the Linux Commands Handbook work?;The commands from the Linux Commands Handbook work on Linux, macOS, WSL, and anywhere you have a UNIX environment.
+What is the goal of the Linux Commands Handbook?;The goal of the Linux Commands Handbook is to help the reader get comfortable with Linux.
+Who is the author of the Linux Commands Handbook?;The Linux Commands Handbook is written by Flavio.What does flaviocopes.com publish?;Programming tutorials every day
+What is Linux?;Linux is an operating system, like macOS or Windows.
+Is Linux a free operating system?;Yes, Linux is the most popular Open Source and free operating system.
+What powers the vast majority of the servers that compose the Internet?;Linux powers the vast majority of the servers that compose the Internet.
+What is Android based on?;Android is based on a modified version of Linux.
+When and where was the Linux "core" (called kernel) born?;The Linux "core" (called kernel) was born in 1991 in Finland.
+What is the duo GNU/Linux?;The duo GNU/Linux is the combination of the Linux kernel and the GNU Operating System.
+What is one thing about Linux that corporations like Microsoft and Apple, or Google, will never be able to offer?;The freedom to do whatever you want with your computer.
+What is the ultimate freedom according to the text?;Linux is the ultimate freedom.Who develops Linux?;Linux is developed by volunteers, some paid by companies that rely on it, some independently.
+Is there a single commercial company that can dictate what goes into Linux?;No, there's no single commercial company that can dictate what goes into Linux, or the project priorities.
+Can Linux be used as a day to day computer?;Yes, Linux can also be used as your day to day computer.
+Can anyone dictate which apps you can run on Linux?;No one can dictate which apps you can run on Linux.
+Is there just "one Linux"?;No, Linux is special because there's not just "one Linux", like it happens on Windows or macOS. Instead, we have distributions.
+What is a "distro"?;A "distro" is made by a company or organization and packages the Linux core with additional programs and tooling.
+What are some examples of Linux distributions?;Debian, Red Hat, and Ubuntu are examples of Linux distributions.
+Can you create your own Linux distribution?;Yes, you can create your own distribution, but most likely you'll use a popular one.What is the benefit of Linux having a large user community?; It allows you to find solutions to common problems without spending too much time reinventing the wheel.
+Can Linux be preinstalled on computers?; Yes, some desktop computers and laptops ship with Linux preinstalled.
+Can Linux be installed on a Windows-based computer or a Mac?; Yes, Linux can be installed on both Windows-based computers and Macs.
+Is it necessary to disrupt your existing computer to understand how Linux works?; No, it's not necessary to disrupt your existing computer just to get an idea of how Linux works.
+What is the relationship between macOS and UNIX?; macOS is a UNIX Operating System, meaning it shares a lot of the same ideas and software that a GNU/Linux system uses, as GNU/Linux is a free alternative to UNIX.
+What is UNIX?; UNIX is an umbrella term that groups many operating systems used in big corporations and institutions, starting from the 70's.
+What does the macOS terminal provide?; The macOS terminal gives you access to the same exact commands as described in this handbook.
+What is the Windows Subsystem for Linux?; It's an official Microsoft tool that allows you to install Linux on Windows.What is a simple way to run Linux on your PC?; You can run Linux in a very easy way on your PC.
+What is the most common way to run a Linux computer?; The vast majority of the time, a Linux computer is run in the cloud via a VPS (Virtual Private Server) like DigitalOcean.
+What is a shell in the context of operating systems?; A shell is a command interpreter that exposes to the user an interface to work with the underlying operating system.
+What does a shell allow you to do?; It allows you to execute operations using text and commands, and it provides users advanced features like being able to create scripts.
+Why are shells important?; Shells let you perform things in a more optimized way than a GUI (Graphical User Interface) could ever possibly let you do. Command line tools can offer many different configuration options without being too complex to use.
+What kind of shells does this post focus on?; This post focuses on Unix shells, the ones that you will find commonly on Linux and macOS computers.
+What are some examples of shells?; Many different kind of shells were created for those systems over time, and a few of them dominate the space: Bash, Csh, Zsh, Fish and many more!Who created the Bourne Shell?;Steve Bourne
+What does Bash stand for?;Bourne-again shell
+Why was Bash created?;To create a free alternative for the GNU project and the Free Software Foundation
+Why did Bash become very popular?;Because projects had to pay to use the Bourne shell
+What is the default shell running on a Mac terminal?;ZSH (or Bash pre-Catalina)
+Can you set up your system to run any kind of shell?;Yes
+What is the common functionality of all shells?;They can let you execute programs, and they can be programmed
+What is the first command introduced in the handbook?;man <command>What is a man page in the context of a developer?; A man page is an essential tool for a developer to learn. It contains a lot of information, sometimes almost too much.
+What is the purpose of the 'ls' command?; The 'ls' command is used to list all the files that a folder contains.
+What does the 'ls' command do when you add a folder name or path?; When you add a folder name or path to the 'ls' command, it will print that folder's contents.
+What is the tldr pages site used for?; The tldr pages site is used for a quick overview of a command, with some handy examples of common usage scenarios.
+How is the tldr command used?; The tldr command is used by running it like this: tldr <command>, which gives a quick overview of a command.
+Is the tldr pages site a substitute for man pages?; No, the tldr pages site is not a substitute for man pages. It's a handy tool to avoid losing yourself in the huge amount of information present in a man page. Then you can use the man page to explore all the different options and parameters you can use on a command.What does the command "ls -al /bin" do?; It returns more detailed information about files in the /bin directory, including file permissions, number of links to the file, the owner and group of the file, the file size in bytes, the file modified datetime, and the file name.
+What does the "l" option in "ls -al" command stand for?; The "l" option generates a set of data including the file permissions, number of links to that file, the owner of the file, the group of the file, the file size in bytes, the file modified datetime, and the file name.
+What does the "a" option in "ls -al" command do?; The "a" option shows the hidden files, which are files that start with a dot (.).
+What does the "cd" command do?; The "cd" command, which stands for "change directory", is used to move into a specified folder or path.
+What does the command "mkdir fruits" do?; The command "mkdir fruits" creates a new folder named "fruits".
+What does the command "cd fruits" do?; The command "cd fruits" moves you into the "fruits" folder.
+What does the ".." special path indicate?; The ".." special path indicates the parent folder.
+What does the "#" character indicate in a command?; The "#" character indicates the start of a comment.What command is used to create a new directory?;mkdir
+What does the command 'cd' do?;It changes the current directory.
+What does the special path indicator '.' signify?;It indicates the current folder.
+What is an absolute path?;An absolute path is a path that starts from the root folder.
+On what systems does the 'cd' command work?;The 'cd' command works on Linux, macOS, WSL, and anywhere you have a UNIX environment.
+What command do you use when you feel lost in the filesystem?;You use the 'pwd' command to know where you are.
+How do you create multiple folders with one command?;You can create multiple folders with one command by using 'mkdir' followed by the names of the folders.
+How do you create multiple nested folders?;You can create multiple nested folders by adding the -p option to the 'mkdir' command.
+What are options in UNIX commands?;Options in UNIX commands are added right after the command name, and they change how the command behaves.
+How can you find which options a command supports?;You can find which options a command supports by typing 'man' followed by the command name.What is the use of 'man' in UNIX?; 'man' is used to access the built-in help for UNIX.
+What command is used to create a folder in UNIX?; The 'mkdir' command is used to create a folder in UNIX.
+How can you delete a folder in UNIX?; You can delete a folder using the 'rmdir' command.
+What is the condition to delete a folder using 'rmdir'?; The folder you want to delete must be empty.
+How can you delete multiple folders at once in UNIX?; You can delete multiple folders at once using 'rmdir' followed by the names of the folders.
+What command is used to delete folders with files in them?; The 'rm' command is used to delete folders with files in them.
+What are the options used with 'rm' to delete files and folders?; The '-rf' options are used with 'rm' to delete files and folders.
+What is the risk associated with the 'rm -rf' command?; The 'rm -rf' command does not ask for confirmation and will immediately remove anything you ask it to remove. There is no bin when removing files from the command line, and recovering lost files can be hard.
+What is the use of 'mv' command in UNIX?; The 'mv' command is used to move or rename files and folders in UNIX.
+How do you rename a file in UNIX?; You can rename a file in UNIX by using the 'mv' command followed by the current file name and the new file name.What happens when the last parameter is a folder in a command?;The file located at the first parameter path is moved into that folder.
+What is the function of the 'touch' command?;The 'touch' command is used to create a new file.
+What does the 'mkdir' command do?;The 'mkdir' command is used to create a new directory or folder.
+What does the 'mv' command do?;The 'mv' command is used to move files into a specified folder.
+What is the function of the 'cp' command?;The 'cp' command is used to copy a file.
+What does the '-r' option do when copying folders?;The '-r' option allows you to recursively copy the whole folder contents.
+What does the 'open' command do?;The 'open' command lets you open a file or a directory.
+What does the '.' symbol represent in the 'open' command?;The '.' symbol points to the current directory.
+What does the '..' symbol represent in the 'open' command?;The '..' symbol points to the parent directory.
+How can the 'open' command be used to run an application?;The 'open' command can be used to run an application by typing 'open' followed by the application name.What is the function of the touch command in Linux?; The touch command in Linux is used to create an empty file. If the file already exists, it opens the file in write mode and updates the timestamp of the file.
+What does the find command do in Linux?; The find command in Linux is used to find files or folders matching a particular search pattern. It searches recursively.
+How can you find all the files under the current tree that have the .js extension?; You can find all the files under the current tree that have the .js extension by using the command: find . -name '*.js'.
+Why is it important to use quotes around special characters like * when using the find command?; It's important to use quotes around special characters like * to avoid the shell interpreting them.
+How can you find directories under the current tree matching the name "src"?; You can find directories under the current tree matching the name "src" by using the command: find . -type d -name src.
+What does -type f and -type l do in the find command?; -type f in the find command is used to search only files, while -type l is used to only search symbolic links.
+What is the difference between -name and -iname in the find command?; -name in the find command is case sensitive, while -iname is used to perform a case-insensitive search.
+How can you search under multiple root trees using the find command?; You can search under multiple root trees using the find command by using the syntax: find folder1 folder2 -name filename.txt.What command is used to search files that have more than 100 characters in them?;find . -type f -size +100c
+What command is used to search files bigger than 100KB but smaller than 1MB?;find . -type f -size +100k -size -1M
+How to search files edited more than 3 days ago?;find . -type f -mtime +3
+What command is used to search files edited in the last 24 hours?;find . -type f -mtime -1
+How to delete all the files matching a search edited in the last 24 hours?;find . -type f -mtime -1 -delete
+What command is used to exclude a path in the search?;find . -type d -name '*.md' -not -path 'node_modules
+How to execute a command on each result of the search?;find . -type f -exec cat {} \;
+What is the purpose of the ln command in Linux file system commands?;It's used to create links.What is a link in terms of computer files?;A link is like a pointer to another file. It's a file that points to another file, similar to Windows shortcuts.
+What are the two types of links?;The two types of links are hard links and soft links.
+What are the limitations of hard links?;Hard links can't link to directories, and they can't link to external filesystems (disks).
+How is a hard link created?;A hard link is created using the command 'ln <original> <link>'. For example, 'ln recipes.txt newrecipes.txt'.
+What happens when you edit a file that has a hard link?;Any time you edit any of those files, the content will be updated for both.
+What happens if you delete the original file of a hard link?;If you delete the original file, the hard link will still contain the original file content, as that's not removed until there is one hard link pointing to it.
+How are soft links different from hard links?;Soft links are more powerful as you can link to other filesystems and to directories.that the output should be written to the standard output (the terminal), and the output redirection operator (>) writes this output to the  filename.gz  file.
+
+Question: How do you create a soft link in Linux?;
+Answer: You can create a soft link using the -s option of ln command. The syntax is: ln -s <original> <link>.
+
+Question: What happens when you delete the original file of a soft link?;
+Answer: If you delete the original file, the links will be broken, and the shell will tell you "No such file or directory" if you try to access it.
+
+Question: How can you compress a file using gzip?;
+Answer: You can compress a file using the gzip command. The simplest usage is: gzip filename. This will compress the file, and append a .gz extension to it. The original file is deleted.
+
+Question: How can you compress a file using gzip without deleting the original file?;
+Answer: To compress a file using gzip without deleting the original file, you can use the -c option and use output redirection to write the output to the filename.gz file. The command is: gzip -c filename > filename.gz. 
+
+Question: What does the -c option specify in the gzip command?;
+Answer: The -c option in the gzip command specifies that the output should be written to the standard output (the terminal), and the output redirection operator (>) writes this output to the filename.gz file.What does the -k option do in the gzip command?; It leaves the original file intact.
+What does the -<NUMBER> option do in the gzip command?; It allows you to choose a specific level of compression.
+What is the range of compression levels in the gzip command?; Levels range from 1 (fastest, worst compression) to 9 (slowest, better compression).
+What is the default compression level in the gzip command?; The default is 6.
+How can you compress multiple files using the gzip command?; By listing them: gzip filename1 filename2.
+How can you compress all the files in a directory recursively using the gzip command?; Using the -r option: gzip -r a_folder.
+What does the -v option do in the gzip command?; It prints the compression percentage information.
+How can you decompress a file using the gzip command?; Using the -d option: gzip -d filename.gz.
+What is the gunzip command equivalent to?; It is equivalent to the gzip command, except the -d option is always enabled by default.What command is used to unzip a file with a .gz extension?;gunzip filename.gz
+What does the gunzip command do to the .gz file?;It unzips the file and removes the .gz extension, putting the result in the filename file.
+What happens if the filename file already exists when using the gunzip command?;It will overwrite that file.
+How can you extract to a different filename using gunzip?;By using output redirection with the -c option: gunzip -c filename.gz > anotherfilename
+What is the tar command used for?;It is used to create an archive, grouping multiple files in a single file.
+What does the name 'tar' stand for?;It stands for tape archive, a term from when archives were stored on tapes.
+How can you create an archive with the content of file1 and file2?;By using the command: tar -cf archive.tar file1 file2
+What do the 'c' and 'f' options stand for in the tar command?;The 'c' option stands for create and the 'f' option is used to write to file the archive.
+How can you extract files from an archive in the current folder?;By using the command: tar -xf archive.tar
+What does the 'x' option stand for in the tar command?;The 'x' option stands for extract.
+How can you extract files to a specific directory using the tar command?;By using the command: tar -xf archive.tar -C directory
+How can you list the files contained in an archive?;By using the tar command.What is the command to create a gzipped archive using tar?;tar -czf archive.tar.gz file1 file2
+What is the command to unarchive a gzipped archive?;tar -xf archive.tar.gz
+What does the -al option do for the ls command?;It prints more useful information, including the file modification date, the size, the owner, and the permissions, also listing hidden files.
+How can you create a new command that is an alias to ls -al?;By using the command alias ll='ls -al'
+What happens once you create an alias for a command in UNIX?;You can call the alias just like it was a regular UNIX command.What does the alias do in a terminal session?; The alias works until the terminal session is closed.
+How can you make an alias permanent?; To make an alias permanent, you need to add it to the shell configuration, which could be ~/.bashrc, ~/.profile, or ~/.bash_profile if you use the Bash shell, depending on the use case.
+What is the difference between using double quotes and single quotes in a command?; Using double quotes the variable is resolved at definition time, using single quotes it's resolved at invocation time.
+What does $PWD refer to?; $PWD refers to the current folder the shell is into.
+What is the difference between the aliases 'lsthis' and 'lscurrent'?; If you navigate away to a new folder, 'lscurrent' lists the files in the new folder, 'lsthis' still lists the files in the folder you were when you defined the alias.
+What is the function of 'cat' command?; 'Cat' command can add content to a file and print a file's content to the standard output.What command is used to print the content of multiple files?;cat file1 file2
+How can you concatenate the content of multiple files into a new file?;cat file1 file2 > file3
+What command is used to append the content of multiple files into a new file, creating it if it does not exist?;cat file1 file2 >> file3
+How can you have cat print line numbers when watching source code files?;cat -n file1
+What option can you use to add a number to non-blank lines?;-b
+How can you remove all the multiple empty lines using cat?;-s
+How is cat often used in combination with the pipe operator?;To feed a file content as input to another command: cat file1 | anothercommand
+What does the less command do?;It shows you the content stored inside a file, in a nice and interactive UI.
+How do you use the less command?;less <filename>
+How can you quit a less session?;By pressing q
+How can you navigate the file contents in a less session?;By using the arrow keys or the page up/down keys.
