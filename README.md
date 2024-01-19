@@ -1,4 +1,4 @@
-# PDF to 2 Anki Card generator
+# PDF to Anki Card generator
 
 The PDF to Anki Card Generator is designed to convert text from PDF files into Anki flashcards. It processes the PDF content in chunks and utilizes OpenAI's GPT models to generate question-answer pairs suitable for flashcard-based learning.
 
